@@ -1,0 +1,170 @@
+.login {
+  margin: 0;
+  width: 100%;
+  height: 100vh;  
+}
+
+.login .login-content {
+  width: 50%;
+  min-height: 700px;
+  height: 100vh;
+  margin: 0 auto;
+  
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .login .login-content {
+    width: 100%;
+    height: 750px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .login .login-content {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .login .login-content {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+.login .login-content form {
+  width: 75%;  
+
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .login-content form * {
+  margin: 12px 0;
+}
+
+.login .login-content form .form-header {
+  margin-bottom: 25px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.login .login-content form .form-header h1 {
+  font-size: 45px;
+  color: #3b3d52;
+}
+
+.login .login-content form label,
+.login .login-content form .form-label-password,
+.login .login-content form .form-label-password * {
+  margin-bottom: 0px;
+}
+
+.login .login-content form .form-label {
+  width: 100%;  
+  text-align: initial;
+}
+
+.login .login-content form .form-label-password {
+  width: 100%;  
+  text-align: initial;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.login .login-content form .form-label-password a {
+  color: #c7d0e1;
+  font-weight: 500;  
+  text-decoration: none;
+  transition: filter 0.2s; 
+}
+
+.login .login-content form .form-label-password a:hover {
+  filter: brightness(0.7);
+}
+
+.login .login-content form .checkbox {
+  width: 100%;
+  margin: 0;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.login .login-content form .checkbox input {
+  width: 20px;
+}
+
+.login .login-content form .checkbox label {
+  margin: 0 24px;
+  color: #3b3d52c5;
+  font-weight: 600;
+}
+
+.login .login-content form .login-with {
+  display: flex;  
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .login-content form .login-with a {
+  width: 4%;
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .login .login-content form .login-with a {
+    width: 10%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .login .login-content form .login-with a {
+    width: 10%;
+    margin: 0;
+  }
+}
+
+.login .login-content form .login-with a img {
+  width: 100%;  
+  filter: invert(69%) 
+          sepia(3%) 
+          saturate(1987%) 
+          hue-rotate(183deg) 
+          brightness(87%) 
+          contrast(90%);
+}
+
+.login .login-content form .login-with a:nth-child(2) {
+  margin: 0 30px;
+}
+
+.login .login-content .register {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.login .login-content .register a {
+  color: #9aa2b9;
+  transition: filter 0.2s;
+}
+
+.login .login-content .register a:hover {
+  filter: brightness(0.7);
+}
