@@ -25,9 +25,9 @@ C. Terceiro
 
 Quais das instruções a seguir estão corretas? 
 
-A. time() + 60*60*100 Retorna a data e hora atuais mais uma hora
-B. time() + 24*60*60 Retorna a data e hora atuais mais um dia 
-C. time() + 24*60*60*100 Retorna a data e hora atuais mais um dia
+- A. time() + 60*60*100 Retorna a data e hora atuais mais uma hora
+- B. time() + 24*60*60 Retorna a data e hora atuais mais um dia 
+- C. time() + 24*60*60*100 Retorna a data e hora atuais mais um dia
 
 #### Resposta: 
 
