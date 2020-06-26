@@ -118,7 +118,7 @@ Os arrays 1 e 2 ficaram deste jeito
 array 1: ["n", "h", "o", "j", Array(5)]
 array 2: ["n", "h", "o", "j", Array(5)]
 ```
-<p style='text-align: justify;'>
+<p style="text-align: justify;">
  Irá retornar os tamanhos dos arrays arr1 e arr2, que no caso é 5 para os dois e também 
  vai retornar a última posição de cada um destes arrays, que no caso é o próprio array  
  arr3 que foi inserido no final do arr1 e arr2 na linha 4. O arr3 foi inserido no final 
