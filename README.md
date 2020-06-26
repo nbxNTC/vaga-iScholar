@@ -119,10 +119,10 @@ array 1: ["n", "h", "o", "j", Array(5)]
 array 2: ["n", "h", "o", "j", Array(5)]
 ```
 <p style='text-align: justify;'>
- Irá retornar os tamanhos dos arrays arr1 e arr2, que no caso é 5 para os dois e também <br>
- vai retornar a última posição de cada um destes arrays, que no caso é o próprio array  <br>
- arr3 que foi inserido no final do arr1 e arr2 na linha 4. O arr3 foi inserido no final <br>
- do arr2, porém, por causa da linha 2, no qual o array 1 foi passado por referência para <br>
+ Irá retornar os tamanhos dos arrays arr1 e arr2, que no caso é 5 para os dois e também 
+ vai retornar a última posição de cada um destes arrays, que no caso é o próprio array  
+ arr3 que foi inserido no final do arr1 e arr2 na linha 4. O arr3 foi inserido no final 
+ do arr2, porém, por causa da linha 2, no qual o array 1 foi passado por referência para 
  o arr2, essa inserção ocorre no arr1 também.
 </p>
 
