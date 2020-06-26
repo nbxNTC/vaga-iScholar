@@ -100,12 +100,21 @@ B. document.getElementById("demo").innerHTML = "Olá Mundo!";
 
 O que o código javascript abaixo irá retornar no console do navegador, e por que?
 ```
-var arr1 = "john".split('');
-var arr2 = arr1.reverse();
-var arr3 = "jones".split('');
-arr2.push(arr3);
-console.log("array 1: length=" + arr1.length + " last=" + arr1.slice(-1));
-console.log("array 2: length=" + arr2.length + " last=" + arr2.slice(-1));
+1 - var arr1 = "john".split('');
+2 - var arr2 = arr1.reverse();
+3 - var arr3 = "jones".split('');
+4 - arr2.push(arr3);
+5 - console.log("array 1: length=" + arr1.length + " last=" + arr1.slice(-1));
+6 - console.log("array 2: length=" + arr2.length + " last=" + arr2.slice(-1));
 ```
 
 #### Resposta: 
+```
+array 1: length=5 last=j,o,n,e,s
+array 2: length=5 last=j,o,n,e,s
+```
+Irá retornar os tamanhos dos arrays arr1 e arr2, que no caso é 5 para os dois e também <br>
+vai retornar a última posição de cada um destes arrays, que no caso é o próprio array  <br>
+arr3 que foi inserido no final do arr1 e arr2 na linha 4. <br>
+O arr3 foi inserido no final do arr2, porém, por causa da linha 2, no qual o array 1 foi <br>
+passado por referência para o arr2, essa inserção ocorre no arr1 também.
