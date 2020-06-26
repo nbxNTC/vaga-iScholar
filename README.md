@@ -84,13 +84,17 @@ Qual é a sintaxe javascript correta para alterar o conteúdo do elemento HTML a
 <p id="demo">Isto é uma demonstração</p>
 ```
 ```
-A.  document.getElementByName("p").innerHTML = "Olá Mundo!";
-B.  document.getElementById("demo").innerHTML = "Olá Mundo!";
-C.	#demo.innerHTML = "Olá Mundo!";
-D.	document.getElement("p").innerHTML = "Olá Mundo!";
+A. document.getElementByName("p").innerHTML = "Olá Mundo!";
+B. document.getElementById("demo").innerHTML = "Olá Mundo!";
+C. #demo.innerHTML = "Olá Mundo!";
+D. document.getElement("p").innerHTML = "Olá Mundo!";
 ```
 
 #### Resposta: 
+
+```
+B. document.getElementById("demo").innerHTML = "Olá Mundo!";
+```
 
 ### Questão 5
 
