@@ -148,6 +148,11 @@
           hue-rotate(183deg) 
           brightness(87%) 
           contrast(90%);
+  transition: filter 0.2s;
+}
+
+.login .login-content form .login-with a img:hover {
+  filter: brightness(1);
 }
 
 .login .login-content form .login-with a:nth-child(2) {
